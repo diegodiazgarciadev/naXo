@@ -149,15 +149,21 @@ In **naXo**, the multi-agent system leverages LLMs to enhance collaboration and 
 
 ## 8. Challenges and Future Research
 
-- **Automatic Hardware Detection:** Developing mechanisms for automatic component recognition and configuration will streamline the integration process. Embedding metadata, such as QR codes, directly into hardware components is a potential solution to reduce setup time and errors.
+1. **Automatic Hardware Detection and Task Orchestration:**  
+   Developing mechanisms for automatic recognition and configuration of new hardware components will streamline the integration process. Once detected, the system should automatically assign and orchestrate tasks associated with these new agents, reducing the need for manual setup.
 
-- **LLM Optimization:** Reducing latency and resource consumption in real-time scenarios is crucial for scaling **naXo**. Exploring lightweight language models or task-specific optimizations could enhance system performance without sacrificing adaptability.
+2. **Hardware Standardization for Agents:**  
+   Proposing standardized formats for embedding metadata, such as QR codes, directly into hardware components would enable seamless recognition and self-integration. This standardization should also support automatic task generation and alignment with the system’s global goals, enhancing interoperability and scalability.
 
-- **Standardization:** Proposing unified formats for agent definitions, roles, and metadata will improve interoperability between components and systems. Collaboration with manufacturers could accelerate adoption of these standards.
+3. **LLM Optimization:**  
+   Reducing latency and resource consumption in real-time scenarios is crucial for scaling **naXo**. Exploring lightweight language models or task-specific optimizations could enhance system performance without sacrificing adaptability.
 
-- **Integration with Larger-Scale Robotics:** Extending the methodology to more complex systems, such as robotic arms, drones, or industrial vehicles, would test the scalability and versatility of **naXo** in diverse applications.
+4. **Integration with Larger-Scale Robotics:**  
+   Extending the methodology to more complex systems, such as robotic arms, drones, or industrial vehicles, would test the scalability and versatility of **naXo** in diverse applications.
 
-- **Real-Time Communication:** Exploring robust communication protocols, such as ROS or CAN, will enable precise synchronization in scenarios that demand high coordination and low latency.
+5. **Real-Time Communication:**  
+   While **naXo** focuses on the behavior and orchestration of agents, the physical connection and communication between hardware components and agents are not currently addressed in this project. Future work should explore robust communication protocols, such as ROS or CAN, to enable precise synchronization in scenarios that demand high coordination and low latency. Addressing this gap would significantly enhance the system’s applicability to real-world, large-scale deployments.
+
 
 
 ---
